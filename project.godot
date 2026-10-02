@@ -1,0 +1,29 @@
+; Engine configuration file.
+; Godot 4.x project — «ГЕЛІКС-7»
+
+config_version=5
+
+[application]
+
+config/name="ГЕЛІКС-7"
+config/description="Метроідванія-шутер про космонавта-рятувальника на закинутій станції."
+run/main_scene="res://Scenes/Main.tscn"
+config/features=PackedStringArray("4.3", "C#", "GL Compatibility")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="Helix"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.03, 0.04, 0.07, 1)
